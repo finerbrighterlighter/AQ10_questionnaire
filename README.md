@@ -86,7 +86,7 @@ Number of splits = 10
 The same hyperparameters as Logistic Regression are used.
 Hyperparametes are tuned.
 
-![Receiver operating characteristic of Logistic Regression](url)
+![Receiver operating characteristic of Logistic Regression](/roc/logreg_with_cv.svg)
 
 ### Support Vector Machine
 
@@ -108,7 +108,7 @@ Hidden Layers|Activation|Solver|Alpha|Learning Rate
 
 Hyperparametes are tuned.
 
-![Receiver operating characteristic of MLP](url)
+![Receiver operating characteristic of MLP](/roc/mlp.svg)
 
 Models|Precision|Accuracy|Sensitivity|Specificity
 ------|---------|--------|-----------|-----------
