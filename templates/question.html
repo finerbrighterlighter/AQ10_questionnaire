@@ -1,0 +1,16 @@
+<h1>AQ-10 ( Adolescent Version )</h1>
+<h2>Autism Spectrum Quotient</h2>
+<h3><u>Questionnaire</u></h3>
+
+
+<form action='/score' method='POST'>
+    <ol>
+        {% for i in q %}
+            <li> {{i}} </li>
+            {% for j in o[i] %}
+                <input type='radio' value='{{j}}' name='{{i}}' />{{j}}
+            {% endfor %}
+        {% endfor %}
+    </ol>
+    <input type="submit" value="Submit" />
+</form>
