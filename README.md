@@ -6,8 +6,7 @@ at Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ra
 While the models are based on AQ10 questionnaire and real life data set from UCI Machine Learning Repository,
 this is not to be taken of any diagnostical values.
 
-![AQ10 for Adolescent](/roc/AQ10-Adolescent.jpg)
-
+[AQ10 for Adolescent](/roc/AQ10-Adolescent.jpg)
 
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
