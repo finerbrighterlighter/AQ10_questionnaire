@@ -7,6 +7,7 @@ While the models are based on AQ10 questionnaire and real life data set from UCI
 this is not to be taken of any diagnostical values.
 
 [AQ10](http://www.plymouthhospitals.nhs.uk/autism-resources)
+
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
 [Web application deployed at Heroku](https://aq10-questionnaires.herokuapp.com)
@@ -18,8 +19,8 @@ this is not to be taken of any diagnostical values.
   * Logistic Regression with Cross Validation
   * Support Vector Machine
   * Multi-layer Perceptron
-* Flask App Deployment
-* Heroku Web App Deployment
+* Flask Application Deployment
+* Heroku Web Application Deployment
 
 ## Data Preprocessing
 
@@ -117,3 +118,46 @@ Logistic Regression with Cross Validation|1.0|1.0|1.0|1.0
 Support Vector Machine|1.0|1.0|1.0|1.0
 Multi-layer Perceptron|1.0|1.0|1.0|1.0
 
+## Flask Application Deployment
+
+The process spans over 5 page.
+* Discalimer
+* Patient's History
+* Questionnaires
+* Machine Learning Model to be applied
+* Results
+
+All models are dumped into respective pickle files.
+MLP classifier is not deployed in the application.
+MLP classifier got too sensitive and assume everyone to be on the spectrum.
+Logistic regressions and Support Vector Machine are deployed.
+
+### Patient's History
+
+Age, gender and family history are collected.
+
+### Questionnaires
+
+All ten separate questionnaires are taken from Plymouth Hospital source.
+Separate answers are collected.
+
+Scoring scheme is deployed per guideline.
+Total score is calculated by summation.
+
+### Machine Learning Model to be applied
+
+Model Selection is done by the interviewee.
+
+### Results
+
+Results are given in "Normal" or "On the spectrum".
+Logitstic Regression Models also give "Probability of being on the spectrum".
+
+## Heroku Web Application Deployment
+
+All python files are uploaded to Github as per Assignment's instructions.
+Pickle files and flask file are uploaded for Heroku.
+Requirement txt is created.
+Procfile is created.
+
+Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com)
