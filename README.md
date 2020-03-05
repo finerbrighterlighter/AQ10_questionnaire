@@ -6,7 +6,7 @@ at Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ra
 While the models are based on AQ10 questionnaire and real life data set from UCI Machine Learning Repository,
 this is not to be taken of any diagnostical values.
 
-[AQ10 for Adolescent](/roc/AQ10-Adolescent.jpg)
+[AQ10 for Adolescent](https://www.autismhampshire.org.uk/assets/uploads/AQ10-Adolescent.pdf)
 
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
@@ -138,7 +138,7 @@ Age, gender and family history are collected.
 
 ### Questionnaires
 
-All ten separate questionnaires are taken NHS source.
+All ten separate questionnaires are taken from [Autism Hampshire](https://www.autismhampshire.org.uk) source.
 Separate answers are collected.
 
 Scoring scheme is deployed per guideline.
