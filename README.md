@@ -6,11 +6,13 @@ at Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ra
 While the models are based on AQ10 questionnaire and real life data set from UCI Machine Learning Repository,
 this is not to be taken of any diagnostical values.
 
+This is the [application deployed by original researchers](http://asdtests.com). 
+
 [AQ10 for Adolescent](https://www.autismhampshire.org.uk/assets/uploads/AQ10-Adolescent.pdf)
 
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
-[Web application deployed at Heroku](https://aq10-questionnaires.herokuapp.com)
+[Web application deployed at Heroku *not diagnostical*](https://aq10-questionnaires.herokuapp.com)
 
 * Data Preprocessing
 * Feature Selection
