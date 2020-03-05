@@ -1,12 +1,13 @@
 # AQ10_questionnaire
 
-This git is for Assignment of RADS 602 : Data Mining and Machine Learning Class 
+This project is the Assignment of RADS 602 : Data Mining and Machine Learning Class 
 at Department of Clinical Epidemiology and Biostatistics, Faculty of Medicine Ramathibodhi Hospital.
 
 While the models are based on AQ10 questionnaire and real life data set from UCI Machine Learning Repository,
 this is not to be taken of any diagnostical values.
 
-[AQ10](http://www.plymouthhospitals.nhs.uk/autism-resources)
+![AQ10 for Adolescent](/roc/AQ10-Adolescent.jpg)
+
 
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
@@ -138,7 +139,7 @@ Age, gender and family history are collected.
 
 ### Questionnaires
 
-All ten separate questionnaires are taken from Plymouth Hospital source.
+All ten separate questionnaires are taken NHS source.
 Separate answers are collected.
 
 Scoring scheme is deployed per guideline.
