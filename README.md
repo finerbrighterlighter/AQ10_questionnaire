@@ -160,4 +160,4 @@ Pickle files and flask file are uploaded for Heroku.
 Requirement txt is created.
 Procfile is created.
 
-Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com)
+Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com).
