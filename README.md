@@ -164,4 +164,4 @@ Procfile is created.
 
 Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com).[^1]
 
-[^1] : The application works well on local environment with flask, but with Heroku on the web. The application often goes under Internal Server Error on the last page. This is a known issue and has to be dealed with.
+[^1]: The application works well on local environment with flask, but with Heroku on the web. The application often goes under Internal Server Error on the last page. This is a known issue and has to be dealed with.
