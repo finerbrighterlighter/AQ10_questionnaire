@@ -12,7 +12,7 @@ This is the [application deployed by original researchers](http://asdtests.com).
 
 [UCI dataset](https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult)
 
-[Web application deployed at Heroku *not diagnostical*](https://aq10-questionnaires.herokuapp.com)
+[Web application deployed at Heroku *not diagnostical*](https://aq10-questionnaires.herokuapp.com)[^bignote]
 
 * Data Preprocessing
 * Feature Selection
@@ -162,4 +162,6 @@ Pickle files and flask file are uploaded for Heroku.
 Requirement txt is created.
 Procfile is created.
 
-Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com).
+Web application is deployed on [Heroku](https://aq10-questionnaires.herokuapp.com).[^bignote]
+
+[^bignote] : The application works well on local environment with flask, but with Heroku on the web. The application often goes under Internal Server Error on the last page. This is a known issue and has to be dealed with.
